@@ -34,3 +34,4 @@ admin.site.register(OperationLog, OperationLogAdmin)
 admin.site.register(AccessToken, AccessTokenAdmin)
 
 admin.site.site_header = '貸与PC管理システム'
+
