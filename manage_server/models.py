@@ -48,3 +48,5 @@ class OperationLog(models.Model):
     operation_result = models.CharField(max_length=100, help_text='Operation result')
     operation_time = models.DateTimeField('operation time')
     updated_at = models.DateTimeField('last update', auto_now=True, editable=False)
+
+    
